@@ -8,6 +8,9 @@ def PGCD(pN0, pN1):
     
     if A < B:
         A,B = B,A
+        pN1,pN0 = pN0,pN1
+
+    R = B
 
     while(R!=0):
         OldR=R
